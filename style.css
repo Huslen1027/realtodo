@@ -1,4 +1,3 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,700&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -11,8 +10,7 @@ div {
 
 body {
   font-family: "Roboto", sans-serif;
-
-  background-image: url(https://img.freepik.com/free-vector/vibrant-summer-ombre-background-vector_53876-105765.jpg);
+  background-image: url("https://images.unsplash.com/photo-1493243350443-9e3048ce7288?q=80&w=2552&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
   background-repeat: no-repeat;
   background-size: cover;
   display: flex;
@@ -26,40 +24,7 @@ body {
   max-width: 1100px;
   height: 100vh;
 }
-.logo {
-  position: fixed;
-  left: 30px;
-  top: 30px;
-}
-.header {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 15px;
-  margin: 32px 0;
-}
-.header h2 {
-  font-size: 36px;
-}
-.header i {
-  font-size: 24px;
-  cursor: pointer;
-}
-.addBoard {
-  /* border: 1px solid; */
-  border-radius: 5px;
-  padding: 5px;
-  /* font-size: 50px; */
-  letter-spacing: 2px;
-  font-family: "Roboto", sans-serif !important;
-  /* background-color: #ebecf0; */
-}
-.addBoard:hover {
-  background-color: #ebecf0;
-}
-.addBoard p {
-  font-size: 50px;
-}
+
 .card {
   display: flex;
   padding: 8px;
@@ -173,7 +138,7 @@ body {
   cursor: pointer;
 }
 
-.addtask {
+.modal {
   position: absolute;
   background-color: white;
   border-radius: 8px;
